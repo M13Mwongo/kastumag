@@ -28,6 +28,10 @@
   .scroll-container, .work-cont {
     margin: 75px 0px;
   }
+  .scroll-container a svg{
+    height: auto;
+    width: 65px;
+  }
   .content{
     padding: 0px 20px;
   }
