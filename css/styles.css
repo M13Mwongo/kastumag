@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 :root {
   --primaryColor: #ff4169;
   --secondaryColor: #1c2527;
@@ -5,10 +8,11 @@
   --footerColor: #292D3E;
   --backgroundColor: #222222;
   --textColor: #e6e6e6;
-  --textfont: "Rajdhani";
-  --headingFont:"Audiowide Regular";
+  /* --textfont: "Rajdhani";
+  --headingFont:"Audiowide Regular"; */
   /* also Expansiva */
 }
+
 .fb-1{
   fill: var(--textColor);
 }
@@ -21,12 +25,12 @@
 }
 
 h1{
-  font-family: var(--headingFont);
+  font-family: "Audiowide", cursive;
 }
 
 html, body {
   height: 100%;
-  font-family: var(--textfont);
+  font-family: "Rajdhani", sans-serif;
   margin-left: -1px;
   background-image: url("/images/bg.svg");
   background-color: var(--backgroundColor);
